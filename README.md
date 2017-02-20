@@ -134,7 +134,7 @@ Happy hacking :)
 
 ## FAQ
 
-**Could it auto-deauth all APs in the range?**
+**Could it deauth multiple APs in the range?**
 
 It definitely could! But I will not implement this 'feature' for ethical and legal reasons.
 
@@ -143,7 +143,7 @@ It definitely could! But I will not implement this 'feature' for ethical and leg
 The ESP8266 has a promiscuous mode in which you can sniff nearly all packets, but handshake packets are dropped and there is no other way to get them with the functions provided by the SDK.  
 Maybe someone will find a way around this barrier but I wasn't able to.
 
-**`espcomm_sync failed` when uploading**
+**espcomm_sync failed/espcomm_open when uploading**
 
 The ESP upload tool can't communicate with the chip, make sure the right port is selected!  
 You can also try out different USB ports and cables.  
